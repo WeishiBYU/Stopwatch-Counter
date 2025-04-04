@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="8" cy="8" r="7.5" fill="#4CAF50"/>
+  
+  <!-- Stopwatch Body -->
+  <circle cx="8" cy="8" r="6" fill="#FFFFFF"/>
+  <circle cx="8" cy="8" r="5" fill="#F5F5F5"/>
+  
+  <!-- Clock Hands -->
+  <line x1="8" y1="8" x2="8" y2="4" stroke="#4CAF50" stroke-width="1" stroke-linecap="round"/>
+  <line x1="8" y1="8" x2="11" y2="8" stroke="#FF9800" stroke-width="1" stroke-linecap="round"/>
+  
+  <!-- Center Dot -->
+  <circle cx="8" cy="8" r="1" fill="#212121"/>
+</svg>
