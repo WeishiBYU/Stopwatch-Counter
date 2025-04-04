@@ -1,0 +1,93 @@
+body {
+    width: 400px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stopwatch-section, .counter-section, .chart-section, .session-section {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.stopwatch-display {
+    font-size: 2em;
+    font-family: monospace;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.counter-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.counter-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+.counter-controls {
+    display: flex;
+    gap: 5px;
+}
+
+#chartType {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.chart-section canvas {
+    background: white;
+    border-radius: 4px;
+}
+
+.session-section {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
